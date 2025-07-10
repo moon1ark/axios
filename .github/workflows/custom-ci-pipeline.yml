@@ -38,7 +38,7 @@ jobs:
       - name: Commit and Push Verification File
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "CI: Add workflow execution verification file"
+          commit_message: "ci: add workflow execution verification file"
           branch: ${{ github.ref_name }}
           file_pattern: workflow-verification.txt
           commit_user_name: GitHub Actions Bot
